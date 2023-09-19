@@ -1,10 +1,10 @@
 // JavaScript to handle modal functionality
 
-const openModalBtn = document.getElementById("openModalBtn");
+const openModal= document.getElementById("openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const modal = document.getElementById("myModal");
 
-openModalBtn.addEventListener("click", () => {
+openModal.addEventListener("click", () => {
     modal.style.display = "block";
 });
 
